@@ -17,14 +17,14 @@ servers:
     protocolVersion: 3.1.1
 
 channels:
-  out/spec_cond/1.0:
+  out/cyclists/1.0:
     description: Real time dynamic vehicles information
     publish:
       message:
         $ref: '#/components/messages/cyclists'
 components:
   messages:
-    spec_cond:
+    cyclists:
       externalDocs: 
         description: Table descriptions
         url: https://ddd.com    
